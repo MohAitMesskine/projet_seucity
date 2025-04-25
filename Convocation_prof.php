@@ -85,7 +85,7 @@ if(isset($_GET['id']))
                                 while($row = $result2->fetch_assoc()) { 
                                 ?>
                                 <tr>
-                                  <?php  $a = $row['cin'];$b = $row['fname']; ?>
+                                  <?php  $a = $row['cin'];$b = $row['lname']; ?>
                                     <td><?php echo$row['cne']; ?></td>
                                     <td><?php echo$row['cin']; ?></td>
                                     <td><?php echo $row['fname']; ?></td>
@@ -102,7 +102,7 @@ if(isset($_GET['id']))
         <tr >
             <th scope="col"  style="color: #135297">FILIERE</th>
             <th scope="col"  style="color: #135297">SEMESTRE</th>
-            <th scope="col"  style="color: #135297">MODULE &amp; HEURE</th>
+            <th scope="col"  style="color: #135297">MODULE</th>
             <th scope="col"  style="color: #135297">LOCAL</th>
             <th scope="col"  style="color: #135297">DATE</th>
             <th scope="col"  style="color: #135297">HEURE DEBUT</th>

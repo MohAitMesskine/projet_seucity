@@ -37,8 +37,6 @@
                             <form class="form-horizontal" method="POST" action="pages/save_teacher.php"
                                 name="teacherform" enctype="multipart/form-data">
 
-                                <input type="hidden" name="currnt_date" class="form-control"
-                                    value="<?php echo $currnt_date;?>">
 
                                 <div class="form-group">
                                     <div class="row">
@@ -198,7 +196,7 @@
                                 </div>
 
                                 <button type="submit" name="btn_save"
-                                    class="btn btn-flat m-b-30 m-t-30" style="background-color: #135297;color: white">soumettre</button>
+                                    class="btn btn-flat m-b-30 m-t-30" style="background-color: #135297;color: white">Ajouter</button>
                             </form>
                         </div>
                     </div>

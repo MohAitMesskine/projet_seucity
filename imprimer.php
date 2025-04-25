@@ -35,7 +35,7 @@
                                 while($row = $result2->fetch_assoc()) { 
                                 ?>
                                 <tr>
-                                <?php  $a = $row['cin'];$b = $row['fname']; ?>
+                                <?php  $a = $row['cin'];$b = $row['lname']; ?>
                                     <td><?php echo$row['cne']; ?></td>
                                     <td><?php echo$row['cin']; ?></td>
                                     <td><?php echo $row['lname']; ?></td>

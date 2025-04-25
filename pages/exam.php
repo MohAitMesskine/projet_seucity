@@ -34,7 +34,7 @@ function isReserved($reservations, $exam_date, $start_time) {
       $mess="Cette heure  est Non disponible pour une réservation.";
      $_SESSION['er']='Cette heure  est Non disponible pour une réservation.';
      
-      header("Location: ../add_exam.php?erreur=heure+Non+disponible");
+      header("Location: ../add_exam.php?erreur=Enseignent+Non+disponible+dans+cette+date");
       exit();
   } 
   

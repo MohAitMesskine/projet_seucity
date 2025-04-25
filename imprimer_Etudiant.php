@@ -9,7 +9,7 @@
 <body>
 
     <div><img src="./fpo.jpg" style="display: block; margin: 0 auto; max-width: 300px;"></div>
-    <div><br><h1>Liste de Surveillance</h1></div><br>
+    <div><br><h1>Convocation Examens Session Normal 2024</h1></div><br>
     <div class="page-wrapper" style="margin-top: 60px;">
         <div class="container-fluid">
             <div class="card">
@@ -21,8 +21,9 @@
                                 <th>Numero Examen</th>
                                     <th>CNE</th>
                                     <th>CIN</th>
-                                    <th>Nom</th>          
+                                             
                                     <th>Prénom</th>
+                                    <th>Nom</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -36,7 +37,7 @@
                                 while($row = $result2->fetch_assoc()) { 
                                 ?>
                                 <tr>
-                                <?php $a= $row['lname']; ?>
+                                <?php $a= $row['fname']; ?>
                                   <td><?php echo$row['id']; ?></td>
                                     <td><?php echo$row['cne']; ?></td>
                                     <td><?php echo$row['cin']; ?></td>
@@ -124,7 +125,7 @@
 
     <!-- Image de conseigne -->
     <br><br><br><div>
-<h4>CONSIGNES AUX SURVEILLANTS :</h4> 
+<h4>CONSIGNES AUX EtUDIANT :</h4> 
 <h6> &#10003; Avant le début de l'épreuve, les élèves s'installent à leur table en mettant leurs sacs, documents personnels et téléphones portables hors de leur portée. Seuls les éléments explicitement autorisés sur le sujet sont permis, tels que les calculatrices, ou dans le cadre d'un aménagement d'épreuve spécifique.
 </h6>
 <h6> &#10003; Les téléphones portables doivent être éteints et rangés dans les sacs. Tout élève surpris avec son téléphone portable avant le début de l'épreuve se le verra confisqué, et il lui sera restitué à la fin de l'épreuve. Les téléphones ne peuvent pas servir d'horloge pendant l'épreuve.

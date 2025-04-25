@@ -14,7 +14,7 @@
 <footer class="footer" >
         <div class="container my-auto">
             <div class="copyright text-center my-auto">
-                <p class="mb-0">FPO &copy; 2024 - Tous droits réservés</p>
+                <p class="mb-0">FSSM &copy; 2025 - Tous droits réservés</p>
             </div>
         </div>
     </footer>   

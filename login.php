@@ -93,7 +93,7 @@ else {?>
                     <div class="col-lg-4">
                         <div class="login-content card shadow" style=" box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);">
                             <div class="login-form">
-                                <center><img src="uploadImage/Logo/1.png" style="width:50%;"></center><br>
+                                <center><img src="logo.png" style="width:50%;"></center><br>
                                 <form method="POST">
                                     <div class="form-group">
                                         <label>

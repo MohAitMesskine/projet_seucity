@@ -93,8 +93,8 @@ if(isset($_GET['id']))
                                 <!-- </td> -->
                                     <td><?php echo$row['cne']; ?></td>
                                     <td><?php echo$row['cin']; ?></td>
-                                    <td><?php echo $row['lname']; ?></td>
                                     <td><?php echo $row['fname']; ?></td>
+                                    <td><?php echo $row['lname']; ?></td>
                                 </tr>
                                 <?php } ?>
                             </tbody>

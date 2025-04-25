@@ -77,7 +77,7 @@ $class_id = $row['class_id'];
                                 <div class="input-states">
                                     <form class="form-horizontal" method="POST" enctype="multipart/form-data" name="subjectform">
 
-                                   <input type="hidden" name="currnt_date" class="form-control" value="<?php echo $currnt_date;?>">
+                                
                                     <div class="form-group">
                                             <div class="row">
                                                 <label class="col-sm-3 control-label"  style="color: #135297">Filière</label>

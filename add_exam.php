@@ -148,7 +148,7 @@ if (!empty($message)) {
                                                             if ($result->num_rows > 0) {
                                                                 while ($row = mysqli_fetch_array($result)) {?>
                                                                         <option value="<?php echo $row['tfname'];?>">
-                                                                        <?php echo $row['tfname'];?>
+                                                                        <?php echo $row['tfname'].' '.$row['tlname'];?>
                                                                     </option>
                                                                     <?php
                                                                 }
@@ -171,7 +171,7 @@ if (!empty($message)) {
                                                             if ($result->num_rows > 0) {
                                                                 while ($row = mysqli_fetch_array($result)) {?>
                                                                     <option value="<?php echo $row['tfname'];?>">
-                                                                        <?php echo $row['tfname'];?>
+                                                                    <?php echo $row['tfname'].' '.$row['tlname'];?>
                                                                     </option>
                                                                     <?php
                                                                 }
@@ -194,7 +194,7 @@ if (!empty($message)) {
                                                             if ($result->num_rows > 0) {
                                                                 while ($row = mysqli_fetch_array($result)) {?>
                                                                     <option value="<?php echo  $row['tfname'];?>">
-                                                                        <?php echo $row['tfname'];?>
+                                                                    <?php echo $row['tfname'].' '.$row['tlname'];?>
                                                                     </option>
                                                                     <?php
                                                                 }
