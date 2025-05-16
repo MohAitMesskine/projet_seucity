@@ -51,19 +51,6 @@ Concevoir une plateforme qui facilite la gestion :
 
 ---
 
-## 🔄 Diagrammes UML
-
-- ✅ Cas d’utilisation
-- ✅ Diagramme de classes
-- ✅ Diagrammes de séquence (authentification, affectation de surveillance)
-
----
-
-## 📷 Captures d’écran
-
-> (Insérez ici des captures d’écran des interfaces principales ou des diagrammes UML)
-
----
 
 ## 📂 Installation et Exécution
 
