@@ -69,4 +69,4 @@ Concevoir une plateforme qui facilite la gestion :
 
 1. Cloner le dépôt :
 ```bash
-git clone https://github.com/votre-utilisateur/nom-du-repo.git
+https://github.com/MohAitMesskine/projet_seucity.git
